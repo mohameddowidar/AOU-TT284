@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>online form</title>
+
+</head>
+<body>
+   <form action="admission.php" method="post" enctype="multipart/form-data" >
+
+        <label for="studenName"> Student name: </label>
+        <input type = "text" name="name" id="studenName" required >
+
+        <br/> 
+        <br/>
+
+        <label> Gender: </label>
+        <input type = "radio" id="Gender_Id_male" name="gender" >
+         <label for="Gender_Id_male"> male </label>
+        <input type = "radio" id="Gender_Id_female" name="gender" >
+        <label for="Gender_Id_female"> female </label>
+        <br/> 
+        <br/>
+        
+        <label for="DOB_Id"> Date of birth: </label>
+        <input type = "date" name="dateOfBirth" id="DOB_Id" required >
+        <br/>
+        <br/>
+        
+        <label for="GradeId"> Grade: </label>
+        <input type = "number" name="grade" id="GradeId" required >
+        <br/>
+        <br/>
+        <label for="contactNumber"> Contact Number: </label>
+        <input type = "text" name="contactNumber" id="contactNumber" required >
+        <br/>
+        <br/>
+        <label for="emailId"> Email: </label>
+        <input type = "email" name="email" id="emailId" required >
+        <br/>
+        <br/>
+        <label for="commentId"> Comment: </label>
+        <br/>
+        <textarea name="comment" id="commentId" rows="5" cols="30" placeholder="comment"> </textarea>
+        <br/>
+        <br/>        
+        <input type = "submit" name="submit" value="submit">
+   </form>
+</body>
+</html>

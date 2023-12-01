@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Mahmoud Al-Durrah Primary School</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/2_1.png" style="width: 120px;" alt="">
+                        <span style="font-size: large;">Mohamed Al-Durrah Primary School</span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="genral-info.html">genral info</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="payments-info.html">payments info</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="apply-admission.html">apply for admission</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact US</a>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <header class="site-header d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-5 col-12">
+                            <h2 class="text-white">Apply for admission</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+
+            <section class="section-padding section-bg">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h3 class="mb-4 pb-2">We'd love to hear from you</h3>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <form action="admission.php" method="post" enctype="multipart/form-data" class="custom-form contact-form">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-6 col-12">
+                                        <div class="form-floating">
+                                            <input type="text" name="userName" id="userName" class="form-control" placeholder="user Name" required>
+                                            
+                                            <label for="name">Name</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-12 col-md-6 col-12">
+                                        <div class="datepicker">
+                                            <label for="dateOfBirth">Date Of Birth</label>
+                                            <input class="form-control" type="date" name="dateOfBirth" id="dateOfBirth"  
+                                            placeholder="Date Of Birth" required>
+                                        </div>
+                                    </div>
+                                        <div class="form-floating">
+                                            <div class="container">
+                                                <div class="row">
+                                                  <div class="col-md-12">
+                                                    <div class="bg-white p-4 rounded-lg mb-4">
+                                                      <h3 class="fw-bold mb-4">Select Gender: </h3>
+                                                      <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                                                        <label class="form-check-label" for="male">
+                                                          Male
+                                                        </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                                        <label class="form-check-label" for="female">
+                                                          Female
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                      </div>
+                                      
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-floating">
+                                            <input type="number" name="grade" id="grade" class="form-control" placeholder="grade" required>
+                                            
+                                            <label for="grade">Grade</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="text" name="contactNumber" id="contactNumber" class="form-control" placeholder="contact Number" required>
+                                            
+                                            <label for="contactNumber">Contact Number</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" class="form-control" placeholder="email" required>
+                                            
+                                            <label for="email">Email Address</label>
+                                        </div>
+
+                                        <div class="form-floating">
+                                            <textarea class="form-control" id="comment" name="comment" placeholder="comment"></textarea>
+                                            
+                                            <label for="comment">Comment</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-12 ms-auto">
+                                        <button type = "submit" name="submit" class="form-control" >Submit</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                       
+
+                          </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
